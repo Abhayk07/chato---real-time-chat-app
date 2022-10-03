@@ -1,0 +1,100 @@
+.back{
+  background-color: rgb(212, 236, 155);
+}
+.logo{
+    display: block;
+    margin: auto;
+}
+.body {
+ background-color: chartreuse;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+h1 {
+  margin-top: 12px;
+  font-size: 30px;
+  font-family: "arial",Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(233, 144, 12);
+  width: 80%;
+  margin: auto;
+  height: 40vh;
+  padding: 33px;
+  overflow-y: auto;
+  margin-bottom: 23px;
+  border-radius: 50px;
+
+  border: 15px solid hsla(0, 0%, 100%, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.send {
+  color-scheme: white;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.message {
+  background-color: rgb(124, 212, 139);
+  width: 24%;
+  padding: 10px;
+  margin: 17px 12px;
+  border: 2px solid rgb(240, 234, 234);
+  border-radius: 10px;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+#send-container {
+  display: block;
+  margin :auto;
+  text-align: center;
+  max-width: 985px;
+   width: 80%;
+}
+
+#messageInp {
+  display: block;
+  margin: auto;
+  width : 100%;
+  border:2px solid rgb(24, 23, 23);
+  border-radius:6px;
+  height: 34px;
+}
+.btn {
+  cursor: pointer;
+  border-radius: 6px;
+  border: 2px solid rgb(90, 84, 84);
+  background-color: rgb(235, 219, 219);
+  position: relative;
+}
